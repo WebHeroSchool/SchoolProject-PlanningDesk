@@ -12,6 +12,7 @@
   }
 
   .header {
+    padding: 40px 0;
     margin: auto;
     width: 80%;
     display: flex;
@@ -37,7 +38,30 @@
   }
 
   .logo {
-    display: inline-block;
+    position: relative;
     padding: 40px 0;
-    margin-right: 63%;
+    padding-left: 44px;
+    font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+  }
+
+  .logo__circle {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 28px;
+    opacity: .7;
+  }
+
+  .logo__circle_color_blue {
+    left: 8px;
+    top: 56%;
+    background: #C8DBFB;
+    border-radius: 50%;
+  }
+
+  .logo__circle_color_dark-blue {
+    background: #0056EC;
+    border-radius: 50%;
   }
