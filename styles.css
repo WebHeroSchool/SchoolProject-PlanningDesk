@@ -1,6 +1,3 @@
-  .main-content__title {
-  font-family: Roboto;
-  }
 
   body {
    margin: 0;
@@ -17,6 +14,7 @@
     width: 80%;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
   }
 
   .main-section {
@@ -110,4 +108,40 @@
   .logo__circle_color_dark-blue {
     background: #0056EC;
     border-radius: 50%;
+  }
+
+  .main-content {
+    padding-right: 63%;
+    background: top right no-repeat url(img/imgapp.svg);
+    padding: 0 63% 100px 0;
+  }
+
+  .main-content__title {
+    margin: 0 0 40px 0;
+    font: 700 66px/99px pt_serif, arial, helvetica, sans-serif;
+    color: #000;
+  }
+
+  .main-content__text {
+    font: 27px/27px Roboto, arial, helvetica, sans-serif;
+    margin: 0 0 41px 0;
+    color: #000
+  }
+
+  .main-content__title-text_highlight {
+    background: #ECF3FF;
+  }
+
+  .main-content__button {
+    display: inline-block;
+    background: #0056EC;
+    color: #fff;
+    text-decoration: none;
+    font: 18px/20px Roboto, arial, helvetica, sans-serif;
+    padding: 19px 24px;
+    border-radius: 4px;
+  }
+
+  .main-content__button:hover {
+    opacity: .5;
   }
