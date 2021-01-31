@@ -10,27 +10,22 @@
 
   .header {
     padding: 40px 0;
-    margin: auto;
-    width: 80%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
-  }
-
-  .main-section {
-    margin: auto;
-    width: 80%;
+    margin-bottom: 130px;
   }
 
   .navigation-menu {
     display: flex;
     align-items: center;
+    margin: 7px 0px 4px 0px;
   }
 
   .navigation-menu__element {
     position: relative;
-    margin-right: 26px;
-    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+    margin-left: 5px;
+    margin-right: 15px;
+    font: bold 20px/21px Roboto, arial, helvetica, sans-serif;
     color: #000;
     text-decoration: none;
     transition: opacity .5s;
@@ -49,10 +44,10 @@
   }
 
   .navigation-menu__element:hover {
-    opacity: 0.5 ;
+    opacity: 0.5;
   }
 
-  .navigation-menu__element:hover:after, .navigation-menu__element_active::after {
+  .navigation-menu__element:hover:after,.navigation-menu__element_active:after {
     opacity: 1;
     width: 100%;
   }
@@ -84,14 +79,14 @@
   .logo {
     position: relative;
     padding: 40px 0;
-    padding-left: 44px;
-    font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+    padding-left: 50px;
+    font: bold 26px/32px pt_serif, arial, helvetica, sans-serif;
   }
 
   .logo__circle {
     position: absolute;
-    top: 50%;
-    left: 0;
+    top: 45%;
+    left: 6px;
     transform: translateY(-50%);
     width: 28px;
     height: 28px;
@@ -99,8 +94,8 @@
   }
 
   .logo__circle_color_blue {
-    left: 8px;
-    top: 56%;
+    left: 14px;
+    top: 59%;
     background: #C8DBFB;
     border-radius: 50%;
   }
@@ -110,36 +105,41 @@
     border-radius: 50%;
   }
 
-  .main-content {
-    padding-right: 63%;
-    background: top right no-repeat url(img/imgapp.svg);
-    padding: 0 63% 100px 0;
+  .main {
+    background: top right no-repeat url(img/imgapp1.svg);
+    padding: 0 63% 100% 0;
+    margin: 0 -9px 0 0;
   }
 
-  .main-content__title {
-    margin: 0 0 40px 0;
-    font: 700 66px/99px pt_serif, arial, helvetica, sans-serif;
+  .main__title {
+    margin: 0 0 31px 0;
+    padding-top: 73px;
+    padding-left: 2px;
+    padding-bottom: 1px;
+    font: bold 72px/88px pt_serif, arial, helvetica, sans-serif;
     color: #000;
   }
 
-  .main-content__text {
-    font: 27px/27px Roboto, arial, helvetica, sans-serif;
-    margin: 0 0 41px 0;
+  .main__text {
+    font: 22px/28px Roboto, arial, helvetica, sans-serif;
+    margin: 31px 100px 40px 5px;
     color: #000
   }
 
-  .main-content__title-text_highlight {
+  .main__title-text_highlight {
     background: #ECF3FF;
   }
 
-  .main-content__button {
+  .main__button {
     display: inline-block;
-    background: #0056EC;
+    font: 18px/28px Roboto, arial, helvetica, sans-serif;
     color: #fff;
+    background: #0056EC;
+    padding: 14px 38px;
+    padding-left: 23px;
+    margin: 2px 2px 0px 5px;
     text-decoration: none;
-    font: 18px/20px Roboto, arial, helvetica, sans-serif;
-    padding: 19px 24px;
-    border-radius: 4px;
+    border-radius: 3px;
   }
 
   .main-content__button:hover {
