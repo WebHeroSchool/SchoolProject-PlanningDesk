@@ -144,3 +144,138 @@
   .main-content__button:hover {
     opacity: .5;
   }
+
+    /* @media  screen and (max-width: 1920px) {
+
+  }
+
+  @media  screen and (max-width: 1680px) {
+
+  }*/
+
+  @media  screen and (max-width: 1367px) {
+  .header {
+    padding: 0px 34px 0px 76px;
+    margin-bottom: 75px;
+  }
+
+  .logo__circle {
+    top: 50%;
+    left: 6px;
+    transform: translateY(-61%);
+  }
+
+  .navigation-menu {
+      margin: 11px -6px 4px 0px;
+      letter-spacing: 0.3px;
+  }
+
+  .navigation-menu__element {
+    margin-left: 1.07px;
+    margin-right: 27.3px;
+    font: bold 13px/23px Roboto, arial, helvetica, sans-serif;
+  }
+
+  .navigation-menu__element:last-child {
+    margin-right: 57.3px;
+  }
+
+  .main {
+    background: top right no-repeat url(img/imgapp1366.svg);
+    padding: 0px 57% 100% 71px;
+    margin: 2px 79px 4px 9px;
+    background-size: 517px;
+  }
+
+  .main__title {
+    margin: 0px 0px 40px 1px;
+    font: bold 54.4px/65.3px pt_serif, arial, helvetica, sans-serif;
+    padding-top: 25px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    width: 390px;
+  }
+
+  .main__text {
+    font: 18px/21.2px Roboto, arial, helvetica, sans-serif;
+    margin: 39.03px 100px 35px 3px;
+    width: 343px;
+  }
+
+  .main__button {
+    font: 14px/30px Roboto, arial, helvetica, sans-serif;
+    padding: 8px 26px;
+    padding-left: 15px;
+    margin: 6px 4px 2px 5px;
+    }
+  }
+
+  /* @media  screen and (max-width: 1440px) {
+
+  }
+
+  @media  screen and (max-width: 1280px) {
+
+  }*/
+
+  @media only screen and (max-width: 1025px) {
+  .wrapper {
+    margin: auto;
+    width: 92.8%;
+  }
+
+  .header {
+  margin: -2px -59px 0px -3px;
+  padding: 1px 2px 0px 0px;
+  margin-bottom: 76px;
+  }
+
+  .logo__circle {
+    top: 52%;
+    left: 14px;
+    transform: translateY(-62%);
+  }
+
+  .logo__circle_color_blue {
+    left: 22px;
+    top: 59%;
+  }
+
+  .navigation-menu {
+    margin: 12px -8px 4px 0px;
+  }
+
+  .main {
+    background: top right no-repeat url(img/imgapp1024.svg);
+    padding: 1px 57% 100% 71px;
+    margin: 2px -12px 0px -63px;
+    background-size: 527px;
+  }
+
+  .main__button {
+    padding: 9px 26px;
+    margin: 5px 1px 1px 3px;
+  }
+}
+
+  /* @media only screen and (max-width: 960px) {
+    .menu {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+
+  }*/
+
+  @media screen and (max-width: 480px) {
+
+  .logo__app {
+    display: none;
+  }
+  .navigation-menu {
+    display: none;
+    }
+  }
+
+
