@@ -656,14 +656,14 @@
 
   @media screen and (max-width: 480px) {
 
-    .wrapper {
+      .wrapper {
     width: 92.8%;
     }
 
     .header {
-    margin: -66px -59px 0px 0px;
+    margin: -59px 0px 0px 0px;
     padding: 1px 2px 0px 0px;
-    margin-bottom: 79px;
+    margin-bottom: 91px;
     }
 
     .logo {
@@ -675,65 +675,51 @@
     }
 
     .logo__circle {
-    top: 52%;
-    left: 12px;
+    top: 58%;
+    left: 10px;
     transform: translateY(172%);
     }
 
     .logo__circle_color_blue {
-    left: 20px;
-    top: 59%;
+    left: 19px;
+    top: 70%;
     }
 
     .main {
       background: top right no-repeat url(img/imgapp1024.svg);
-      background-size: 391px;
+      margin: -8px 25px 4px 4px;
+      padding: 63% 2px 2px 2px;
+      background-size: 298px 240px;
     }
 
     .main__title {
-      font: bold 43.4px/53.3px pt_serif, arial, helvetica, sans-serif;
+      text-align: center;
+      margin: 4px 0px 30px -11px;
+      padding-top: 39px;
+      padding-left: 13px;
+      padding-bottom: 0px;
+      width: 100%;
+      min-width: 343px;
+      font: bold 33px/39.3px pt_serif, arial, helvetica, sans-serif
     }
 
     .main__text {
-      font: 16px/20.2px Roboto, arial, helvetica, sans-serif;
-      margin: 41.03px 100px 34px 2px;
-      width: 343px;
+      text-align: center;
+      font: bold 16px/19.3px Roboto, arial, helvetica, sans-serif;
+      margin: 34.1px 100px 11px 36.66px;
+      width: 86%;
+      max-width: 85%;
     }
 
     .navigation-menu {
       display: none;
     }
 
-    .main {
-    background-position: top center;
-    margin: 0px 2px 0px 5px;
-    padding: 62% 0px 0px;
-    background-size: 277px 229px;
-    }
-
-    .main__title {
-    text-align: center;
-    margin: 4px 0px 30px -11px;
-    font: bold 32.1px/39.2px pt_serif, arial, helvetica, sans-serif;
-    padding-top: 39px;
-    padding-left: 13px;
-    padding-bottom: 0px;
-    width: 100%;
-    min-width: 343px;
-    }
-
-    .main__text {
-    text-align: center;
-    font: bold 16px/18.3px Roboto, arial, helvetica, sans-serif;
-    margin: 34.1px 100px 15px 51px;
-    max-width: 73%;
-    }
-
     .main__button {
-    padding: 6px 22px;
-    margin: 13px 18% 0px 18%;
-    font: 14px/33px Roboto, arial, helvetica, sans-serif;
-    min-width: 166px;
+      padding: 7px 20px;
+      margin: 13px 18% 0px 20%;
+      font: 14px/33px Roboto, arial, helvetica, sans-serif;
+      min-width: 166px;
     }
   }
 
